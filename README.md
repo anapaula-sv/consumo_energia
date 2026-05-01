@@ -26,6 +26,7 @@ O gráfico abaixo mostra a relação entre o consumo e o valor da fatura, destac
 
 ### Relatório Estruturado
 Saída automática em Excel para gestão de dados.
+
 ![Planilha Gerada](https://github.com/user-attachments/assets/56fc08d8-3e8f-4ab9-a1cf-db982cee0033) 
 
 ## 📝 Como executar
