@@ -25,5 +25,11 @@ Insights visuais que permitem identificar rapidamente os meses de maior impacto 
 Saída profissional automatizada para gestão e histórico de dados, integrando o Python às ferramentas de escritório.
 ![Planilha Gerada](https://github.com/user-attachments/assets/061e0021-97f8-472a-9a5a-f62813defc17)
 
+## 📝 Como executar
+1. Certifique-se de ter o Python instalado em sua máquina.
+2. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
 ---
 Desenvolvido por **Ana**, conectando aprendizados de Engenharia de Software com foco em dados.
