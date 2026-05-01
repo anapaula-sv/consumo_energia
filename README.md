@@ -1,36 +1,29 @@
-# ⚡ Simulador de Consumo Energético
+# ⚡ Simulador de Consumo Energético & Análise de Dados
 
-Este projeto é um simulador interativo desenvolvido em Python para calcular faturas de energia, identificar bandeiras tarifárias e gerar relatórios visuais e estruturados.
+Este projeto une lógica de programação e análise de dados para calcular faturas de energia, identificar bandeiras tarifárias e exportar relatórios estruturados de forma resiliente.
 
-## 🚀 Funcionalidades
-- **Validação de Inputs:** Sistema que impede entradas inválidas usando blocos `try/except`.
-- **Cálculo Inteligente:** Aplicação automática de tarifas baseadas nas bandeiras Verde, Amarela e Vermelha.
-- **Data Visualization:** Gráfico de barras com cores dinâmicas e linha de média para análise rápida.
-- **Exportação de Dados:** Geração de arquivo `.xlsx` (Excel) com os dados processados.
+## 🚀 Diferenciais Técnicos
+- **Processamento Analítico:** Uso de **Pandas** e **Numpy** para manipulação eficiente de DataFrames e lógica condicional.
+- **Visualização de Insights:** Geração dinâmica de gráficos via **Matplotlib** com indicadores de média e mapeamento de cores por categoria de gasto.
+- **Gestão de Arquivos e Exceções:** Uso da biblioteca `os` e tratamento de erros robusto para garantir a persistência dos dados e evitar falhas de execução.
+- **Pipeline de Exportação:** Geração de relatórios `.xlsx` integrados ao fluxo de processamento para facilitar a tomada de decisão.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
 - **Python 3**
-- **Pandas**: Manipulação de DataFrames.
-- **Numpy**: Processamento lógico e matemático.
-- **Matplotlib**: Criação de gráficos.
-- **Openpyxl**: Engine para exportação para Excel.
+- **Pandas & Numpy** | **Matplotlib** | **Openpyxl** | **OS**
 
-## 📊 Resultados do Projeto
+## 📊 Demonstração
 
-### Interface e Código
-O código foi estruturado de forma modular para facilitar a manutenção e garantir a segurança dos dados.
+### Interface e Lógica
+O código foi estruturado de forma modular, priorizando a legibilidade e o tratamento de erros que adquiri pesquisando sobre o tema.
 
 ### Análise Visual
-O gráfico abaixo mostra a relação entre o consumo e o valor da fatura, destacando os meses de maior gasto.
+Insights visuais que permitem identificar rapidamente os meses de maior impacto financeiro através de gráficos dinâmicos.
 ![Gráfico de Consumo](https://github.com/user-attachments/assets/0cc50941-bb56-4343-8640-39cd17876905)
 
-### Relatório Estruturado
-Saída automática em Excel para gestão de dados.
+### Relatório Final (Excel)
+Saída profissional automatizada para gestão e histórico de dados, integrando o Python às ferramentas de escritório.
+![Planilha Gerada](https://github.com/user-attachments/assets/061e0021-97f8-472a-9a5a-f62813defc17)
 
-![Planilha Gerada](https://github.com/user-attachments/assets/56fc08d8-3e8f-4ab9-a1cf-db982cee0033) 
-
-## 📝 Como executar
-1. Certifique-se de ter o Python instalado.
-2. Instale as bibliotecas necessárias:
-   ```bash
-   pip install pandas numpy matplotlib openpyxl
+---
+Desenvolvido por **Ana**, conectando aprendizados de Engenharia de Software com foco em dados.
